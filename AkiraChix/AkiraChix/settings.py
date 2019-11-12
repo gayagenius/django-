@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'course',
     'api',
     'rest_framework',
+    'core',
 ]
 
 MIDDLEWARE = [
@@ -129,5 +130,5 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'student/media')
 MEDIA_ROOT = os.path.join(BASE_DIR,'teacher/media')
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
 
