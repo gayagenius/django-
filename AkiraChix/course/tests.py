@@ -19,7 +19,7 @@ class AddCourseTestCase(TestCase):
              "duration_in_months":10,
              "start_date":datetime.date(2019,2,1),
              "end_date":"hello",
-             "course_description":"FrontEnd development",
+             "course_description":"Web App development",
              "teacher":"James Mwai",
         }
 
